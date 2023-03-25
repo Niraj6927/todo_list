@@ -1,0 +1,21 @@
+Creating a Todo list using ReactJS involves the following steps:
+
+1. Set up your development environment: Install Node.js and create a new React project using Create React App.
+
+2. Create a new component for the Todo list: Create a new file called TodoList.js and define a new functional component called TodoList.
+
+3. Define the state: Define the state of your TodoList component. The state will hold the list of todos and the input value for adding new todos.
+
+4. Render the list of todos: Inside the TodoList component, render a list of todos using the map() method.
+
+5. Add a form for adding new todos: Create a new component called TodoForm.js that will handle the form for adding new todos.
+
+6. Define the state for the TodoForm: Define the state for the TodoForm component to hold the input value for adding new todos.
+
+7. Add a submit handler for the form: Add a submit handler to the TodoForm component that will handle adding new todos to the TodoList component's state.
+
+8. Pass state and handlers as props: Pass the TodoList state and TodoForm handlers as props to the respective components.
+
+9. Style your components: Style your components using CSS or a CSS framework like Material UI.
+
+10. Test your Todo list: Test your Todo list by adding, deleting, and updating todos.
